@@ -1,0 +1,76 @@
+body{
+    background-color: rgba(248, 248, 248, 0.74);
+    padding-bottom: 500px;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.title{
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    background-color: saddlebrown;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    color: white;
+    margin-top: 0;
+}
+
+.calcBox{
+    display: flex;
+    background-color: royalblue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(17, 15, 15);
+    width: 600px;
+    height: 200px;
+    margin-top: 200px;
+    margin-left: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+label{
+    display: block;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+
+#aBox, #bBox{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    height: 20px;
+    border-width: 1px;
+}
+
+
+#submitBtn{
+    display: block;
+    background-color: rgb(230, 36, 36);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-weight:lighter ;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-bottom: 15px;
+    transition: opacity 0.6s;
+}
+#submitBtn:active{
+    opacity: 0.2;
+}
+
